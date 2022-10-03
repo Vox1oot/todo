@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #004881;
+}
+
+.app {
+  width: 50vw;
+  height: 50vh;
+  background-color: #f5f6f7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -80%)
+}
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 700;
+  padding: 20px;
+}
