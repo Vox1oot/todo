@@ -12,7 +12,7 @@ const Form = (props) => {
   
   return (
     <form onSubmit={toggleTasks}>
-      <input type="text" maxlength="40" ref={elem} value={value} onChange={updateText} placeholder="Новая задача" required/>
+      <input type="text" maxLength="40" ref={elem} value={value} onChange={updateText} placeholder="Новая задача" required/>
       <input className="btn add" type="submit" value="Добавить" />
     </form>
   )
